@@ -2,6 +2,7 @@
             padding: 0;
             margin: 0;
             box-sizing: border-box;
+
         }
         .container{
             height:100%;
@@ -12,9 +13,11 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            height:27vh;
+            height:20vh;
             position:sticky;
             top:0px;
+            border-bottom: solid grey;
+            background-color: white;
             z-index:0;
         }
         .parent__logo{
@@ -41,10 +44,14 @@
             justify-content: center;
             align-content: flex-start;
             padding:20px;
+            background-color: white;
+        }
+        .container__main img{
+            height: 30vh;
+            width: 35vh;
         }
         .container__footer{
             height:10vh;
-            border:2px solid green;
             justify-content: center;
             align-items: center;
         }
